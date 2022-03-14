@@ -1,0 +1,22 @@
+# ORM metodos de busqueda consulta
+
+# Metodo get
+
+    - Ejemplo: Model.objects.get(condición)
+    
+    - Note: El método get solo nos devuelve un resultado (objeto) que coincida con la consulta.
+
+# Metodo filter
+
+    - Ejemplo: Model.objects.filter(condición)
+    
+    - Note: El método filter nos devuelve un conjunto de objetos (lista) que cumplan con la condición.
+
+
+# Operadores de busqueda
+
+    Link: https://docs.djangoproject.com/en/4.0/ref/models/querysets/#field-lookups
+
+# Operadores para acceder a propiedades del conjunto (___)
+    
+    https://docs.djangoproject.com/en/3.2/topics/db/queries/#field-lookups-intro

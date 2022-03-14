@@ -1,0 +1,22 @@
+# Crear proyecto con django
+
+    command: django-admin startproject <nombre> ruta
+
+# Correr servidor django
+
+    command: python3 manage.py runserver
+
+# Crear aplicacion con django
+
+    command: python3 manage.py startapp  <nombre aplicacion>
+
+        
+# Migracion a base de datos commands #
+
+    / Paso 1 Actualizar el modelo y tomar los cambios => python3 manage.py makemigrations 
+
+    / Paso 2 Actualizar y migrar cambios a la db => python3 manage.py migrate
+
+# Acceder a la shell de django #
+
+    command: python3 manage.py shell
